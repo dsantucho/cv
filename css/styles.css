@@ -1,0 +1,52 @@
+/************* TAG SELECTOR *************/
+body, html {
+  background-color: #DBE2EF;
+  height: 100%;
+}
+
+hr {
+  background-color: inherit;
+  border-style: none;
+  border-top-style: dotted;
+  border-color: black;
+  border-width: 5px;
+  width: 5%;
+}
+
+h1 {
+  color: #112D4E;
+  font-family: Verdana, Helvetica, sans-serif;
+}
+
+h3 {
+  color: #3F72AF;
+  font-family: Verdana, Helvetica, sans-serif;
+}
+
+/************* CLASS SELECTOR *************/
+/* es posible tener many class osea que varios elementos contengan la misma class name y aplicarle el css */
+/* es posible que un elemento tenga 2 clases: img class = "color circulo" y eso puede especificarse por separado.
+con un css .color y otro a parte .circulo => cuando va a aplicar junta los dos */
+/*
+.nameClass { color: white;}
+*/
+.profileImage:hover {
+  background-color: gold;
+}
+
+
+
+/************* ID SELECTOR *************/
+/* 1 posible id en la solucion - no puedo tener 2 ids iguales. Son mas especificos que los tags y class*/
+/*
+#idName { color: white;}
+*/
+#workInProgress {
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
